@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Buku"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/pengarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Pengarang"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/penerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Penerbit"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="tambah"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
